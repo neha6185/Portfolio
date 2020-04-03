@@ -1,0 +1,108 @@
+$color-primary: #3046C5;
+$color-secondary: #c5cae9;
+$color-pale: #CEC8FF;
+$color-dark: navy;;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$color-gray: gray;
+
+p{
+    line-height: 1.5rem;
+}
+body{
+  font-family: "Open Sans" sans-serif;
+}
+h1,h2,h3{
+  font-family: "Montserrat-Bold", cursive;
+}
+h5,h6{
+  font-family: "Open Sans" sans-serif;
+}
+h4{
+  font-family: "Open Sans-Bold" sans-serif;
+}
+
+.card-footer{
+    background-color: $color-dark;
+    i{
+    color: $color-pale ;
+    }
+}
+.jumbotron-fluid {
+    background: url('../images/bgImg.jpg') no-repeat center center fixed;
+    padding: 30px;
+    height: 610px;
+    background-blend-mode: overlay;
+  }
+  
+.container-fluid {
+  padding: 1% 15% 7%; }
+
+@media (max-width: 768px){.container-fluid {
+  padding: 10% 15% 7%; }}
+
+
+ @media(min-width: 768px){
+    .verticalLine {
+      border-left: 6px solid gray;
+      padding-right: 15px;
+      position: fixed; }
+
+      .animationRight{
+        position: relative;
+        animation: moveRt 5s 1;
+     }
+     @keyframes moveRt {
+        from {left: -100px;}
+        to {left: 0px;}
+      }
+     
+      .animationLeft{
+          position: relative;
+          animation: moveLt 5s 1;
+          
+      }
+      @keyframes moveLt {
+          from {left: 100px;}
+          to {left: 0px;}
+      }
+  
+    }
+    .card-bg{
+        margin-bottom: 0px;
+        background-image: url('../images/computer.jpg');
+    }
+    #skillsId{
+      padding: 5% 15%;
+      background-color:$color-secondary ;
+      color: $color-transparent-black;
+      h4{
+        color: black;
+        font-size:2rem;
+      }
+    }
+    #contactId{
+      padding:5% 15%;
+      .btn{
+        background-color: $color-dark;
+      }
+     }
+    .navbar{
+      background-color:$color-dark ;
+    }
+    .page-footer{
+      background-color:$color-dark ;
+    }
+    #experienceId{
+      .card-title{
+      background-color: $color-secondary;
+      font-size:2rem;
+      }
+    }
+    #educationId{
+      .card-title{
+        background-color: $color-secondary;
+        font-size:2rem;
+      }
+    }
+
+   

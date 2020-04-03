@@ -1,0 +1,85 @@
+p {
+  line-height: 1.5rem; }
+
+body {
+  font-family: "Open Sans" sans-serif; }
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold", cursive; }
+
+h5, h6 {
+  font-family: "Open Sans" sans-serif; }
+
+h4 {
+  font-family: "Open Sans-Bold" sans-serif; }
+
+.card-footer {
+  background-color: navy; }
+  .card-footer i {
+    color: #CEC8FF; }
+
+.jumbotron-fluid {
+  background: url("../images/bgImg.jpg") no-repeat center center fixed;
+  padding: 30px;
+  height: 610px;
+  background-blend-mode: overlay; }
+
+.container-fluid {
+  padding: 1% 15% 7%; }
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 10% 15% 7%; } }
+
+@media (min-width: 768px) {
+  .verticalLine {
+    border-left: 6px solid gray;
+    padding-right: 15px;
+    position: fixed; }
+  .animationRight {
+    position: relative;
+    animation: moveRt 5s 1; }
+  @keyframes moveRt {
+    from {
+      left: -100px; }
+    to {
+      left: 0px; } }
+  .animationLeft {
+    position: relative;
+    animation: moveLt 5s 1; }
+  @keyframes moveLt {
+    from {
+      left: 100px; }
+    to {
+      left: 0px; } } }
+
+.card-bg {
+  margin-bottom: 0px;
+  background-image: url("../images/computer.jpg"); }
+
+#skillsId {
+  padding: 5% 15%;
+  background-color: #c5cae9;
+  color: rgba(0, 0, 0, 0.5); }
+  #skillsId h4 {
+    color: black;
+    font-size: 2rem; }
+
+#contactId {
+  padding: 5% 15%; }
+  #contactId .btn {
+    background-color: navy; }
+
+.navbar {
+  background-color: navy; }
+
+.page-footer {
+  background-color: navy; }
+
+#experienceId .card-title {
+  background-color: #c5cae9;
+  font-size: 2rem; }
+
+#educationId .card-title {
+  background-color: #c5cae9;
+  font-size: 2rem; }

@@ -1,0 +1,53 @@
+hr{
+    border-color: gray;
+    border-style: none;
+    border-width: 1px;
+    border-top-style: solid;
+    width: 75%;
+    align-self: left;
+}
+p{
+    line-height: 2rem;
+}
+.jumbotron {
+    background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/diamond_upholstery.png') no-repeat center center fixed;
+    /*background: url('http://cdn.backgroundhost.com/backgrounds/subtlepatterns/wood_pattern.png') no-repeat center center fixed; 
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover; */
+    background-size: 100%;
+    height: 400px;
+    
+ }
+ .card-footer{
+    background-color:rgba(0, 188, 212, 0.3)  ;
+}
+ .contactRow{
+     
+     height: 70px;
+     /* padding:2rem;*/
+}
+.animationRight{
+    position: relative;
+    animation: moveRt 5s 1;
+}
+@keyframes moveRt {
+    from {left: -100px;}
+    to {left: 0px;}
+  }
+
+  .animationLeft{
+      position: relative;
+      animation: moveLt 5s 1;
+      
+  }
+  @keyframes moveLt {
+      from {left: 100px;}
+      to {left: 0px;}
+  }
+
+ 
+ 
+    
+ 

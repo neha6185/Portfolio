@@ -7,21 +7,26 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" /> 
+        <link rel="stylesheet" href="css/styles.css" />
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Montserrat|Ubuntu" />
 
         <title>Portfolio:Neha Agrawal</title>
     </head>
     <body class="bg-light">
         
-        <nav class="navbar navbar-expand-sm sticky-top navbar-dark bg-info text-white">
+        <nav class="navbar navbar-expand-md fixed-top navbar-dark  text-white">
             <div class="container">
                 <a class="navbar-brand" href="index.html">Neha Agrawal</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolioNavbar">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolioNavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="portfolioNavbar">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#aboutId">About me<span class="sr-only"></span></a>
+                            <a class="nav-link" href="#aboutId" >About me<span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#experienceId">Experience</a>
@@ -30,7 +35,7 @@
                             <a class="nav-link" href="#educationId">Education</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Skills</a>
+                            <a class="nav-link" href="#skillsId">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#contactId">Contact</a>
@@ -40,220 +45,218 @@
             </div>
         </nav>
         <header class="jumbotron jumbotron-fluid">
-            <div class="container ">
+            <div class="container">
                 <div class="row">
                     <div class="col">
-                        <div class="card bg-light mb-3">
-                            <div class="card-title">
+                        <div class="card bg-light my-5">
+                            <div class="card-title card-bg">
                                 <div class="row">
-                                    <div class="col-6 animationRight">
-                                        <img src="images/Aradhya.jpg" class="card-img" alt="NA">
+                                    <div class="col-6 col-sm-6 col-md-4 d-flex align-items-center py-5">
+                                        <img src="images/PP2.jpg" class="card-img img-fluid mx-auto" alt="NA">
                                     </div>
-                                    <div class="col-6 animationLeft">
-                                        <br/>
-                                        <br/>
+                                    <div class="col-6 col-sm-6 col-md-8 py-5 pl-5 text-left">
+                                
                                         <h1 class="card-title">Neha Agrawal</h1>
-                                        <p class="card-text">Full Stack Web Developer</p>
+                                        <p class="card-text text-muted">Full Stack Web Developer</p>
                                         
                                         <h4 class="card-title">Phone:</h4>
-                                        <p class="card-text">123-456-7890</p>
+                                        <p class="card-text text-muted">123-456-7890</p>
                                         
                                         <h4 class="card-title">Email:</h4>
-                                        <p class="card-text">info@mysite.com</p>
+                                        <p class="card-text text-muted">info@mysite.com</p>
                                         
                                         <h4 class="card-title">Address:</h4>
-                                        <p class="card-text">sdfsdcsfsf fsfsdf wfsdfsd<br/>efddwefdsdfwqweqw edqweq</p>
+                                        <p class="card-text text-muted">sdfsdcsfsf fsfsdf wfsdfsd<br/>efddwefdsdfwqweqw edqweq</p>
                                         
                                         <h4 class="card-title">Date of Birth:</h4>
-                                        <p class="card-text">Jan 6th, 1985</p>
+                                        <p class="card-text text-muted">Jan 6th, 1985</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="text-center card-footer">
-                                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com"><i class= "fab fa-twitter"></i></a>
-                                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com"><i class="fab fa-instagram"></i></a>
-                                <!-- <a class="btn btn-social-icon btn-google" href="http://google.com"><i class="fab fa-envelope"></i></a> -->
+                            <div class="text-center card-footer pt-2">
+                                <a href="http://instagram.com/" ><i class="fa fa-instagram mx-2"></i></a>
+                                <a href="http://facebook.com/"><i class="fa fa-facebook mx-2"></i></a>
+                                <a href="http://twitter.com/"><i class="fa fa-twitter mx-2"></i></a>
+                                <a href="http://youtube.com/"><i class="fa fa-youtube mx-2"></i></a>
                             </div>
                         </div>
                     </div>
                  </div>
             </div>
         </header>
-        <section id="aboutId">
-            <div class="row bg-light justify-content-center">
-                <div class="col-4 text-center">
-                    <h2 class="font-weight-bold">Hello! I'M Neha</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-        </section>
-        <div class="container">
-        <section id="experienceId">
-            <div class="row my-5">
-                <div class="col">
-                    <div class="card border-0 bg-light text-center">
-                        <div class="card-body">
-                            <div class="row border-bottom border-top">
-                                <div class="col">
-                                    <h4 class="card-title">Experience</h4>
-                                </div>
-                            </div>
-                            <div class="row my-5 px-5 ">
-                                <div class="col border-right animationRight">
-                                    <h5 class="card-text ">2011-2012</h5>
-                                    <h6 class="card-text ">Software Engg.</h6>
-                                </div>
-                                <div class="col animationLeft">
-                                    <h5 class="card-text">Acusis Software</h5>
-                                    <p class="card-text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="educationId">
-            <div class="row">
-                <div class="col ">
-                    <div class="card border-0 bg-light text-center">
-                        <div class="card-body">
-                            <div class="row border-bottom border-top">
-                                <div class="col">
-                                    <h4 class="card-title ">Education</h4>
-                                </div>
-                            </div>
-                            <div class="row my-5 px-5">
-                                <div class="col  border-right animationRight">
-                                    <h5 class="card-title">2006-2008</h5>
-                                    <h6 class="card-text">Master's Degree</h6>
-                                </div>
-                                <div class="col animationLeft">
-                                    <h5 class="card-text">Master of Buiseness Administration</h5>
-                                    <p class="card-text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-                                </div>
-                            </div>
-                            <div class="row my-5 px-5">
-                                <div class="col  border-right animationRight">
-                                    <h5 class="card-title">2002-2006</h5>
-                                    <h6 class="card-text">Bachelor's Degree</h6>
-                                </div>
-                                <div class="col animationLeft">
-                                    <h5 class="card-text">Bachelor of Engineering</h5>
-                                    <p class="card-text">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="skillsId">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="card border-0 bg-light">
-                    <div class="card-body">
-                        <div class="row ">
-                            <div class="col">
-                                <h4 class="card-title ">Skills</h4>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <label>Bootstrap</label>
-                            </div>
-                            <div class="col">
-                                <label>React</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <label>JavaScript</label>
-                            </div>
-                            <div class="col">
-                                <label>React Native</label>
-                            </div>
-                        </div> 
-                        <div class="row">
-                            <div class="col">
-                                <label>MongoDB</label>
-                            </div>
-                            <div class="col">
-                                <label>Express</label>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <label>Node JS</label>
-                            </div>
-                            <div class="col">
-                                <label>ASP.net</label>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contactId" >
-            <div class="container bg-light my-5">
-                <div class="row border-bottom ">
-                    <div class="col">
-                        <h4 class="text-center">CONTACT ME</h4>
-                    </div>
-                </div>
+        <div class="container-fluid mt-5">
+            <section id="aboutId" class="bg-light mt-5 pt-5">
                 <div class="row ">
-                    <div class="col border-right">
-                        <form class="pt-3">
-                            <div class="form-group row ">
-                                <div class="col">
-                                    <input type="text" class="form-control" id="Name" name="Name" placeholder="Name" />
+                        <div class="col">
+                            <h2 class="font-weight-bold text-center pt">Hello! I'M Neha</h2>
+                            <p class="pt-3 text-muted text-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                </div>
+            </section>
+            
+            <section id="experienceId" class="pt-5" >
+                    <div class="row my-3 ">
+                        <div class="col">
+                            <div class="card border-0 bg-light">
+                                <div class="card-body">
+                                    <div class="row mb-3">
+                                        <div class="col text-center">
+                                            <h4 class="card-title p-4">Experience</h4>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col-12 col-sm-12 col-md-3 animationRight">
+                                            <h5 class="card-text">Software Engg.</h5>
+                                            <h6 class="card-text text-muted">2011-2012</h6>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-9 animationLeft text-left verticalLine">
+                                            <h5 class="card-text">Acusis Software</h5>
+                                            <p class="card-text text-muted">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col">
-                                    <input type="email" class="form-control" id="email" name="Email" placeholder="Email" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" />
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col">
-                                    <textarea class="form-control" id="msg" name="msg" placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-primary btn-lg btn-block" >Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                    <div class="col">
-                        <div class="card bg-light border-0">
-                            <div class="card-body">
-                                <h4 class="card-text">Neha Agrawal</h4>
-                                <p class="card-text">Full Stack Web Developer</p>
-                                <h6>Phone:</h4>
-                                <p class="card-text">123-456-7890</p>
-                                <h6>Email:</h4>
-                                <p class="card-text">info@mysite.com</p>
-                            </div>
-                            <div class="text-left">
-                                <hr/>
-                                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com"><i class= "fab fa-twitter"></i></a>
-                                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+            </section>
+            <section id="educationId" class="pt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card border-0 bg-light">
+                                <div class="card-body">
+                                    <div class="row mb-3">
+                                        <div class="col text-center">
+                                            <h4 class="card-title p-4">Education</h4>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col-12 col-sm-12 col-md-3 animationRight">
+                                            <h5 class="card-text">Master's Degree</h5>
+                                            <h6 class="card-text text-muted">2006-2008</h6>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-9 animationLeft text-left verticalLine">
+                                            <h5 class="card-text">Master of Buiseness Administration</h5>
+                                            <p class="card-text text-muted">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                                        </div>
+                                    </div>
+                                    <div class="row my-3">
+                                        <div class="col-12 col-sm-12 col-md-3 animationRight">
+                                            <h5 class="card-text">Bachelor's Degree</h5>
+                                            <h6 class="card-text text-muted">2002-2006</h6>
+                                        </div>
+                                        <div class="col-12 col-sm-12 col-md-9 animationLeft text-left verticalLine">
+                                            <h5 class="card-text">Bachelor of Engineering</h5>
+                                            <p class="card-text text-muted">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
         </div>
-        <footer class="page-footer font-small pt-4 bg-info text-white">
+            <section id="skillsId">
+                    <div class="row border-bottom">
+                        <div class="col text-center">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h4>Skills</h4>
+                        </div>
+                    </div>
+                    <div class="row my-5">
+                        <div class="col-6 col-md-3 ">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h5>Bootstrap <span class="label m-2"></span></h5>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h5>React <span class="label m-2"></span></h5>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h5>ASP.net <span class="label m-2"></span></h5>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h5>JavaScript <span class="label m-2"></span></h5>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 col-md-3 ">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h5>React Native <span class="label m-2"></span></h5>
+                        </div>
+                        <div class="col-6 col-md-3 ">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h5>MongoDB <span class="label m-2"></span></h5>
+                        </div>
+                        <div class="col-6 col-md-3 ">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h5>Express <span class="label m-2"></span></h5>
+                        </div>
+                        <div class="col-6 col-md-3 ">
+                            <!-- <i class="fa fa-check-circle fa-2x mx-4 text-primary"></i> -->
+                            <h5>Node JS <span class="label m-2"></span></h5>
+                        </div>
+                    </div>
+            </section>
+            <section id="contactId">
+                <div class="row border-bottom ">
+                        <div class="col">
+                            <h4 class="text-center">CONTACT ME</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col border-right">
+                            <form class="pt-3">
+                                <div class="form-group row ">
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="Name" name="Name" placeholder="Name" />
+                                    </div>
+                                    <div class="col">
+                                        <input type="email" class="form-control" id="email" name="Email" placeholder="Email" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <textarea class="form-control" id="msg" name="msg" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-lg btn-block text-white" >Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col">
+                            <div class="card bg-light border-0">
+                                <div class="card-body text-muted">
+                                    <h4 class="card-text">Neha Agrawal</h4>
+                                    <p class="card-text">Full Stack Web Developer</p>
+                                    <h6>Phone:</h4>
+                                    <p class="card-text">123-456-7890</p>
+                                    <h6>Email:</h4>
+                                    <p class="card-text">info@mysite.com</p>
+                                </div>
+                                <div class="text-left">
+                                    <hr/>
+                                    <a href="http://instagram.com/"><i class="fa fa-instagram m-2"></i></a>
+                                    <a href="http://facebook.com/"><i class="fa fa-facebook m-2"></i></a>
+                                    <a href="http://twitter.com/"><i class="fa fa-twitter m-2"></i></a>
+                                    <a href="http://youtube.com/"><i class="fa fa-youtube m-2"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+       
+        
+        <footer class="page-footer font-small pt-4 text-white">
             <div class="footer-copyright text-center py-3">© 2020 Copyright:Neha Agrawal
             </div>
         </footer>
@@ -261,6 +264,6 @@
         <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
         <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-        
+        <script src="scripts/script.js"></script>
     </body>
 </html>
