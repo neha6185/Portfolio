@@ -10,6 +10,7 @@ p{
 }
 body{
   font-family: "Open Sans" sans-serif;
+  
 }
 h1,h2,h3{
   font-family: "Montserrat-Bold", cursive;
@@ -72,16 +73,19 @@ h4{
         background-image: url('../images/computer.jpg');
     }
     #skillsId{
-      padding: 5% 15%;
-      background-color:$color-secondary ;
+      
       color: $color-transparent-black;
       h4{
+        background-color: $color-secondary;
         color: black;
         font-size:2rem;
       }
     }
     #contactId{
-      padding:5% 15%;
+      
+      .secHeading{
+        background-color: $color-secondary;
+      }
       .btn{
         background-color: $color-dark;
       }
@@ -93,16 +97,19 @@ h4{
       background-color:$color-dark ;
     }
     #experienceId{
+      
       .card-title{
       background-color: $color-secondary;
       font-size:2rem;
       }
     }
     #educationId{
+     
       .card-title{
         background-color: $color-secondary;
         font-size:2rem;
       }
     }
+    
 
    

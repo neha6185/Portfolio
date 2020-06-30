@@ -58,17 +58,17 @@ h4 {
   background-image: url("../images/computer.jpg"); }
 
 #skillsId {
-  padding: 5% 15%;
-  background-color: #c5cae9;
   color: rgba(0, 0, 0, 0.5); }
   #skillsId h4 {
+    background-color: #c5cae9;
     color: black;
     font-size: 2rem; }
 
-#contactId {
-  padding: 5% 15%; }
-  #contactId .btn {
-    background-color: navy; }
+#contactId .secHeading {
+  background-color: #c5cae9; }
+
+#contactId .btn {
+  background-color: navy; }
 
 .navbar {
   background-color: navy; }
